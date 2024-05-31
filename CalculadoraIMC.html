@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculadora de IMC</h1>
+    <form action="">
+        <label for="v1">Ingrese la altura en metros</label><br>
+        <input type="number" name="v1" id="v1"><br><br>
+        <label for="v2">Ingrese el peso</label><br>
+        <input type="number" name="v2" id="v2"><br><br>
+        <button type="button" onclick="calcular()">Calcular IMC</button><br><br>
+        <label for="imc">Su índice corporal es:</label><br>
+        <input type="text" id="imc"><br><br>
+        <label for="aviso">Su clasificación es:</label><br>
+        <input type="text" name="aviso" id="aviso">
+    </form>
+    <script src="./CalculadoraIMC.js"></script>
+</body>
+</html>
